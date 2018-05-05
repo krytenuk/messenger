@@ -1,0 +1,26 @@
+{
+    "name": "krytenuk/messanger",
+    "description": "ZF2 module for messaging",
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zend-view": "^2.5.0",
+        "zendframework/zend-mvc": "^2.5.0",
+        "zendframework/zend-I18n": "^2.5.0",
+        "zendframework/zend-servicemanager": "^2.5.0",
+        "container-interop/container-interop": "^1.2.0"
+    },
+    "authors": [{
+            "name": "Garry Childs",
+            "email": "info@freedomwebservices.net",
+            "homepage": "https://www.freedomwebservices.net/"
+        }],
+    "keywords": ["zf2", "messanger", "flashMessanger", "freedom"],
+    "autoload": {
+        "psr-4": {
+            "FwsMessanger\\": ""
+        }
+    },
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "homepage": "https://github.com/krytenuk/logger"
+}

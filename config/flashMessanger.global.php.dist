@@ -1,0 +1,17 @@
+<?php
+
+return array(
+    'flashMessanger' => array(
+        'successMessage' => array(
+            'openFormat' => '<ul class="success"><li class="ui-state-highlight ui-corner-all"><span class="ui-icon ui-icon-info std-icon"></span>',
+            'separatorString' => '<span class="ui-icon ui-icon-closethick close-icon"></span></li><li class="ui-state-highlight ui-corner-all"><span class="ui-icon ui-icon-info"></span>',
+            'closeString' => '<span class="ui-icon ui-icon-closethick close-icon"></span></li></ul>',
+        ),
+        'errorMessage' => array(
+            'openFormat' => '<ul class="error"><li class="ui-state-error ui-corner-all"><span class="ui-icon ui-icon-alert std-icon"></span>',
+            'separatorString' => '<span class="ui-icon ui-icon-closethick close-icon"></span></li><li class="ui-state-error ui-corner-all"><span class="ui-icon ui-icon-alert"></span>',
+            'closeString' => '<span class="ui-icon ui-icon-closethick close-icon"></span></li></ul>',
+        ),
+    ),
+);
+
