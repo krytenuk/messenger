@@ -1,23 +1,23 @@
 {
     "name": "krytenuk/messanger",
-    "description": "ZF2 module for messaging",
+    "description": "ZF3 module for messaging",
     "require": {
-        "php": ">=5.4.0",
-        "zendframework/zend-view": "^2.5.0",
-        "zendframework/zend-mvc": "^2.5.0",
-        "zendframework/zend-I18n": "^2.5.0",
-        "zendframework/zend-servicemanager": "^2.5.0",
-        "container-interop/container-interop": "^1.2.0"
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-view": "^2.10",
+        "zendframework/zend-mvc": "^3.1",
+        "zendframework/zend-I18n": "^2.9",
+        "zendframework/zend-servicemanager": "^3.3",
+        "container-interop/container-interop": "^1.2"
     },
     "authors": [{
             "name": "Garry Childs",
             "email": "info@freedomwebservices.net",
             "homepage": "https://www.freedomwebservices.net/"
         }],
-    "keywords": ["zf2", "messanger", "flashMessanger", "freedom"],
+    "keywords": ["zf3", "messanger", "freedom"],
     "autoload": {
         "psr-4": {
-            "FwsMessanger\\": ""
+            "FwsMessanger\\": "src/"
         }
     },
     "license": "BSD-3-Clause",
