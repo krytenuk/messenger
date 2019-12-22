@@ -1,1 +1,1 @@
-Messaging system for ZF2
+Messaging system for ZF3
