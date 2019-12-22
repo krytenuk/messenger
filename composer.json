@@ -1,5 +1,5 @@
 {
-    "name": "krytenuk/messanger",
+    "name": "krytenuk/messenger",
     "description": "ZF3 module for messaging",
     "require": {
         "php": "^5.6 || ^7.0",
@@ -14,13 +14,18 @@
             "email": "info@freedomwebservices.net",
             "homepage": "https://www.freedomwebservices.net/"
         }],
-    "keywords": ["zf3", "messanger", "freedom"],
+    "keywords": ["zf3", "messenger", "freedom"],
     "autoload": {
         "psr-4": {
-            "FwsMessanger\\": "src/"
+            "FwsMessenger\\": "src/"
         }
     },
     "license": "BSD-3-Clause",
     "type": "library",
-    "homepage": "https://github.com/krytenuk/logger"
+    "homepage": "https://github.com/krytenuk/logger",
+    "extra": {
+        "zf": {
+            "module": "FwsMessenger"
+        }
+    }
 }

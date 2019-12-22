@@ -1,7 +1,7 @@
 <?php
 
-use FwsMessanger\Controller\Plugin\Messenger as PluginMessenger;
-use FwsMessanger\View;
+use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
+use FwsMessenger\View;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return array(
@@ -15,7 +15,7 @@ return array(
     ],
     'view_helpers' => [
          'factories' => [
-             View\Helper\Messenger::class => View\Service\Helper\MessangerFactory::class,
+             View\Helper\Messenger::class => View\Service\Helper\MessengerFactory::class,
         ],
         'aliases' => [
             'fwsMessenger' => View\Helper\Messenger::class,

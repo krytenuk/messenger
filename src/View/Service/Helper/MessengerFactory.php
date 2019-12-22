@@ -1,19 +1,19 @@
 <?php
 
-namespace FwsMessanger\View\Service\Helper;
+namespace FwsMessenger\View\Service\Helper;
 
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\FactoryInterface;
 use Zend\I18n\Translator\TranslatorInterface;
-use FwsMessanger\View\Helper\Messenger as MessengerViewHelper;
-use FwsMessanger\Controller\Plugin\Messenger as PluginMessenger;
+use FwsMessenger\View\Helper\Messenger as MessengerViewHelper;
+use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
 
 /**
  * MessangerFactory
  *
  * @author Garry Childs <info@freedomwebservices.net>
  */
-class MessangerFactory implements FactoryInterface
+class MessengerFactory implements FactoryInterface
 {
     /**
      * Create service
@@ -31,8 +31,8 @@ class MessangerFactory implements FactoryInterface
         $helper->setPluginMessenger($container->get('ControllerPluginManager')->get(PluginMessenger::class))
                 ->setTranslator($container->get(TranslatorInterface::class));
 
-        if (isset($config['view_helper_config']['messenger'])) {
-            $configHelper = $config['view_helper_config']['messenger'];
+        if (isset($config['view_helper_config']['fwsmessenger'])) {
+            $configHelper = $config['view_helper_config']['fwsmessenger'];
             if (isset($configHelper['message_open_format'])) {
                 $helper->setMessageOpenFormat($configHelper['message_open_format']);
             }

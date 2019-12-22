@@ -1,9 +1,9 @@
 <?php
 
-namespace FwsMessanger\View\Helper;
+namespace FwsMessenger\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
-use FwsMessanger\Controller\Plugin\Messenger as PluginMessenger;
+use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
 use Zend\View\Helper\TranslatorAwareTrait;
 use Zend\View\Helper\EscapeHtml;
 
@@ -81,10 +81,8 @@ class Messenger extends AbstractHelper
      */
     public function render($namespace = 'default', array $classes = [], $autoEscape = null)
     {
-        \FwsLogger\InfoLogger::vardump($namespace);
         $flashMessenger = $this->getPluginMessenger();
         $messages = $flashMessenger->getMessages($namespace);
-        \FwsLogger\InfoLogger::vardump($messages);
         return $this->renderMessages($namespace, $messages, $classes, $autoEscape);
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace FwsMessanger\Controller\Plugin;
+namespace FwsMessenger\Controller\Plugin;
 
 use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 use Countable;

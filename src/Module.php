@@ -1,6 +1,6 @@
 <?php
 
-namespace FwsMessanger;
+namespace FwsMessenger;
 
 class Module
 {
