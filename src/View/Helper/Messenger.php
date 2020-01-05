@@ -81,9 +81,22 @@ class Messenger extends AbstractHelper
      */
     public function render($namespace = 'default', array $classes = [], $autoEscape = null)
     {
-        $flashMessenger = $this->getPluginMessenger();
-        $messages = $flashMessenger->getMessages($namespace);
+        $messengerPlugin = $this->getPluginMessenger();
+        $messages = $messengerPlugin->getMessages($namespace);
         return $this->renderMessages($namespace, $messages, $classes, $autoEscape);
+    }
+    
+    /**
+     * Render a single message
+     * @param string $message
+     * @param string $namespace
+     * @param array $classes
+     * @param string $autoEscape
+     * @return string
+     */
+    public function renderMessage($message, $namespace = 'default', array $classes = [], $autoEscape = null)
+    {
+        return $this->renderMessages($namespace, [$message], $classes, $autoEscape);
     }
 
     /**
