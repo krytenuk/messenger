@@ -2,10 +2,10 @@
 
 namespace FwsMessenger\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
+use Laminas\View\Helper\AbstractHelper;
 use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
-use Zend\View\Helper\TranslatorAwareTrait;
-use Zend\View\Helper\EscapeHtml;
+use Laminas\View\Helper\TranslatorAwareTrait;
+use Laminas\View\Helper\EscapeHtml;
 
 /**
  * Messenger

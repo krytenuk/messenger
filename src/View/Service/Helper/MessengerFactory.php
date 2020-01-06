@@ -3,8 +3,8 @@
 namespace FwsMessenger\View\Service\Helper;
 
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\Factory\FactoryInterface;
-use Zend\I18n\Translator\TranslatorInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
+use Laminas\I18n\Translator\TranslatorInterface;
 use FwsMessenger\View\Helper\Messenger as MessengerViewHelper;
 use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
 

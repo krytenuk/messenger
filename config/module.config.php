@@ -2,7 +2,7 @@
 
 use FwsMessenger\Controller\Plugin\Messenger as PluginMessenger;
 use FwsMessenger\View;
-use Zend\ServiceManager\Factory\InvokableFactory;
+use Laminas\ServiceManager\Factory\InvokableFactory;
 
 return array(
     'controller_plugins' => [
