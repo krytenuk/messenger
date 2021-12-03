@@ -1,6 +1,6 @@
 {
     "name": "krytenuk/messenger",
-    "description": "ZF3 module for messaging",
+    "description": "Laminas module for messaging",
     "require": {
         "php": "^5.6 || ^7.0",
         "laminas/laminas-view": "^2.10",
@@ -14,7 +14,7 @@
             "email": "info@freedomwebservices.net",
             "homepage": "https://www.freedomwebservices.net/"
         }],
-    "keywords": ["zf3", "messenger", "freedom"],
+    "keywords": ["laminas", "messenger", "freedom"],
     "autoload": {
         "psr-4": {
             "FwsMessenger\\": "src/"
@@ -22,7 +22,7 @@
     },
     "license": "BSD-3-Clause",
     "type": "module",
-    "homepage": "https://github.com/krytenuk/logger",
+    "homepage": "https://github.com/krytenuk/messenger",
     "extra": {
         "zf": {
             "module": "FwsMessenger"

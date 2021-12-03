@@ -165,7 +165,9 @@ class Messenger extends AbstractPlugin implements IteratorAggregate, Countable
         }
 
         if ($this->hasMessages($namespace)) {
-            return $this->messages[$namespace];
+            $messages = $this->messages[$namespace];
+            unset($this->messages[$namespace]);            
+            return $messages;
         }
 
         return [];

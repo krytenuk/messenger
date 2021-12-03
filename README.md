@@ -1,1 +1,1 @@
-Messaging system for ZF3
+Messaging system for Laminas
