@@ -2,7 +2,7 @@
     "name": "krytenuk/messenger",
     "description": "Laminas module for messaging",
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.0 || ^8.0",
         "laminas/laminas-view": "^2.10",
         "laminas/laminas-mvc": "^3.1",
         "laminas/laminas-i18n": "^2.9",
