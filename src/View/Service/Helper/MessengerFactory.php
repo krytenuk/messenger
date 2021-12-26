@@ -2,7 +2,7 @@
 
 namespace FwsMessenger\View\Service\Helper;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\FactoryInterface;
 use Laminas\I18n\Translator\TranslatorInterface;
 use FwsMessenger\View\Helper\Messenger as MessengerViewHelper;
